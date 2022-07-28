@@ -57,7 +57,7 @@ public class App {
     public static final int ITERATIONS = 10;
     public static final String BENCHFILE = "src/bench.js";
 
-    String password = "hi"
+    String password = "hi";
     public static final String SOURCE = ""
             + "var N = 2000;\n"
             + "var EXPECTED = 17393;\n"
