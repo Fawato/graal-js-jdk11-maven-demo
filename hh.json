@@ -1,22 +1,7 @@
 [
   {
     "Target": "mongo (ubuntu 20.04)",
-    "Type": "ubuntu",
-    "Vulnerabilities": [
-      {
-        "VulnerabilityID": "CVE-2016-2781",
-        "PkgName": "coreutils",
-        "InstalledVersion": "8.30-3ubuntu2",
-        "Layer": {
-          "DiffID": "sha256:af7ed92504ae4c20128a0f01048d41d467fef5c795c38d0defdb998a187ed1d4"
-        },
-        "SeveritySource": "ubuntu",
-        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2016-2781",
-        "Title": "coreutils: Non-privileged session can escape to the parent session in chroot",
-        "Description": "chroot in GNU coreutils, when used with --userspec, allows local users to escape to the parent session via a crafted TIOCSTI ioctl call, which pushes characters to the terminal's input buffer.",
-        "Severity": "LOW",
-        "CweIDs": [
-          "CWE-20"
+
         ],
         "CVSS": {
           "nvd": {
@@ -54,22 +39,7 @@
         "SeveritySource": "ubuntu",
         "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-34903",
         "Description": "GnuPG through 2.3.6, in unusual situations where an attacker possesses any secret-key information from a victim's keyring and other constraints (e.g., use of GPGME) are met, allows signature forgery via injection into the status line.",
-        "Severity": "MEDIUM",
-        "References": [
-          "http://www.openwall.com/lists/oss-security/2022/07/02/1",
-          "https://bugs.debian.org/1014157",
-          "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-34903",
-          "https://dev.gnupg.org/T6027",
-          "https://ubuntu.com/security/notices/USN-5503-1",
-          "https://www.debian.org/security/2022/dsa-5174",
-          "https://www.openwall.com/lists/oss-security/2022/06/30/1"
-        ],
-        "PublishedDate": "2022-07-01T22:15:00Z",
-        "LastModifiedDate": "2022-07-04T11:15:00Z"
-      },
-      {
-        "VulnerabilityID": "CVE-2022-1304",
-        "PkgName": "e2fsprogs",
+gs",
         "InstalledVersion": "1.45.5-2ubuntu1",
         "FixedVersion": "1.45.5-2ubuntu1.1",
         "Layer": {
@@ -108,26 +78,7 @@
       {
         "VulnerabilityID": "CVE-2022-34903",
         "PkgName": "gnupg",
-        "InstalledVersion": "2.2.19-3ubuntu2.1",
-        "FixedVersion": "2.2.19-3ubuntu2.2",
-        "Layer": {
-          "DiffID": "sha256:a0414600a36d895a3720a3cf81793251908cb9745eaebcd6082638f997e2d895"
-        },
-        "SeveritySource": "ubuntu",
-        "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-34903",
-        "Description": "GnuPG through 2.3.6, in unusual situations where an attacker possesses any secret-key information from a victim's keyring and other constraints (e.g., use of GPGME) are met, allows signature forgery via injection into the status line.",
-        "Severity": "MEDIUM",
-        "References": [
-          "http://www.openwall.com/lists/oss-security/2022/07/02/1",
-          "https://bugs.debian.org/1014157",
-          "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-34903",
-          "https://dev.gnupg.org/T6027",
-          "https://ubuntu.com/security/notices/USN-5503-1",
-          "https://www.debian.org/security/2022/dsa-5174",
-          "https://www.openwall.com/lists/oss-security/2022/06/30/1"
-        ],
-        "PublishedDate": "2022-07-01T22:15:00Z",
-        "LastModifiedDate": "2022-07-04T11:15:00Z"
+00Z"
       },
       {
         "VulnerabilityID": "CVE-2022-34903",
