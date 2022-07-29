@@ -113,6 +113,7 @@ public class App {
             + "}\n";
 
     public static void main(String[] args) throws Exception {
+        String password = "hello";
         benchGraalPolyglotContext();
         benchGraalScriptEngine();
         benchNashornScriptEngine();
